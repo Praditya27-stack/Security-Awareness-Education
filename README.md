@@ -58,7 +58,7 @@ Meningkatkan awareness cybersecurity di kalangan anak muda melalui:
 ### 1. Clone & Install
 ```bash
 git clone [repository-url]
-cd cybersecurity-awareness-app
+cd Security-Awareness-Education
 npm install
 ```
 
