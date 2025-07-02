@@ -2,7 +2,7 @@
 
 Platform edukasi keamanan digital yang dirancang khusus untuk generasi muda Indonesia. Aplikasi ini menggunakan pendekatan interaktif dan bahasa yang santai namun edukatif untuk mengajarkan konsep-konsep penting cybersecurity.
 
-## 🎯 Tujuan Proyek
+##  Tujuan Proyek
 
 Meningkatkan awareness cybersecurity di kalangan anak muda melalui:
 - **Edukasi interaktif** tentang threats digital terkini
@@ -10,14 +10,14 @@ Meningkatkan awareness cybersecurity di kalangan anak muda melalui:
 - **Quiz assessment** untuk evaluasi pemahaman
 - **Data analytics** untuk tracking progress
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
-### 🏠 Landing Page
+###  Landing Page
 - Hero section dengan slogan menarik: "Internet itu Hutan, Jangan jadi mangsa!"
 - Navigasi intuitif ke semua fitur utama
 - Responsive design untuk semua device
 
-### 📚 Halaman Edukasi
+###  Halaman Edukasi
 5 artikel komprehensif tentang:
 - **Phishing**: Cara kerja dan pencegahan serangan
 - **Password Security**: Best practices untuk password kuat
@@ -25,25 +25,25 @@ Meningkatkan awareness cybersecurity di kalangan anak muda melalui:
 - **Public WiFi Dangers**: Risiko dan cara aman berinternet
 - **Password Manager**: Tools dan recommendation
 
-### 🎣 Simulasi Phishing
+###  Simulasi Phishing
 - Interface yang menyerupai halaman login Instagram
 - Data collection untuk analytics (education purpose)
 - Warning page dengan penjelasan detail attack vector
 - Real-world statistics tentang phishing
 
-### 🧠 Interactive Quiz
+###  Interactive Quiz
 - 10 pertanyaan tentang digital habits
 - Scoring system yang comprehensive
 - Personalized recommendations berdasarkan hasil
 - Time tracking dan progress indicator
 
-### 📊 Admin Dashboard
+###  Admin Dashboard
 - Real-time analytics phishing attempts
 - Quiz results dan performance metrics
 - User engagement statistics
 - Data visualization dengan charts
 
-## 🚀 Teknologi Stack
+##  Teknologi Stack
 
 - **Frontend**: React 18 + TypeScript
 - **Styling**: Tailwind CSS dengan custom components
@@ -53,7 +53,7 @@ Meningkatkan awareness cybersecurity di kalangan anak muda melalui:
 - **Build Tool**: Vite
 - **Hosting**: Ready for Netlify/Vercel deployment
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone & Install
 ```bash
@@ -116,7 +116,7 @@ src/
 └── main.tsx           # App entry point
 ```
 
-## 🎨 Design System
+##  Design System
 
 ### Color Palette
 - **Primary**: Blue gradient (#1E40AF to #3B82F6)
@@ -135,7 +135,7 @@ src/
 - **Forms**: Focus states, validation feedback
 - **Navigation**: Sticky header, mobile hamburger menu
 
-## 📊 Data Structure
+##  Data Structure
 
 ### Phishing Attempts
 ```typescript
@@ -161,14 +161,14 @@ interface QuizResult {
 }
 ```
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 - **Data Protection**: Semua data encrypted dan stored securely
 - **Educational Purpose**: Data phishing hanya untuk demo, tidak disalahgunakan
 - **Privacy First**: Minimal data collection, transparent usage
 - **Secure Firebase Rules**: Production-ready security configuration
 
-## 📈 Analytics & Insights
+##  Analytics & Insights
 
 Dashboard menyediakan insights tentang:
 - **User Engagement**: Quiz completion rates, time spent
@@ -176,7 +176,7 @@ Dashboard menyediakan insights tentang:
 - **Phishing Susceptibility**: Simulation success rates
 - **Content Performance**: Popular articles, effective messaging
 
-## 🎓 Educational Value
+##  Educational Value
 
 Project ini cocok untuk:
 - **Portfolio Cybersecurity Internship**: Menunjukkan pemahaman security awareness
@@ -184,7 +184,7 @@ Project ini cocok untuk:
 - **Community Outreach**: Platform untuk edukasi publik
 - **Professional Development**: Demonstrate full-stack development skills
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - **Multi-language Support**: English, regional languages
 - **Advanced Simulations**: Different attack vectors (smishing, vishing)
@@ -193,7 +193,7 @@ Project ini cocok untuk:
 - **AI Integration**: Personalized learning paths
 - **Enterprise Features**: Organization dashboards, bulk training
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -201,19 +201,4 @@ Project ini cocok untuk:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📞 Support
-
-Butuh help dengan setup atau development? 
-- Check [Issues](https://github.com/username/repo/issues) untuk common problems
-- Create new issue untuk bug reports atau feature requests
-- Join [Discussions](https://github.com/username/repo/discussions) untuk community support
-
-## 📄 License
-
-MIT License - feel free to use this project for educational purposes, portfolio, atau commercial applications.
-
----
-
-**Dibuat dengan ❤️ untuk meningkatkan cybersecurity awareness di Indonesia**
-
-*"Internet itu hutan, jangan jadi mangsa - jadilah predator yang smart!"* 🦁🛡️
+*"Online jungle is real, better be the hunter, not the hunted"*

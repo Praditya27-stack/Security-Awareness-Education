@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
@@ -8,6 +7,8 @@ import WarningPage from './pages/WarningPage';
 import QuizPage from './pages/QuizPage';
 import ResultPage from './pages/ResultPage';
 import DashboardPage from './pages/DashboardPage';
+import AdminLoginPage from './pages/AdminLoginPage';
+import AdminProtectedRoute from './components/AdminProtectedRoute';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,7 +24,12 @@ function App() {
             <Route path="/warning" element={<WarningPage />} />
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/result" element={<ResultPage />} />
-            <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="/adminlogin" element={<AdminLoginPage />} />
+<Route path="/dashboard" element={
+  <AdminProtectedRoute>
+    <DashboardPage />
+  </AdminProtectedRoute>
+} />
           </Routes>
         </main>
         <Footer />

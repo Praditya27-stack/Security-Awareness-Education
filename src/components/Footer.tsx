@@ -36,7 +36,7 @@ function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-blue-400">Connect</h3>
             <p className="text-slate-300">
-              Project ini dibuat untuk edukasi cybersecurity awareness di Indonesia.
+              Project ini dibuat untuk edukasi untuk orang awam
             </p>
             <div className="flex space-x-4">
               <a href="#" className="p-2 bg-slate-700 rounded-lg hover:bg-slate-600 transition-colors">
@@ -54,7 +54,6 @@ function Footer() {
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center">
           <p className="text-slate-400">
-            © 2024 CyberSafe. Dibuat dengan ❤️ untuk keamanan digital Indonesia.
           </p>
         </div>
       </div>

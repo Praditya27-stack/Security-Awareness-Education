@@ -13,6 +13,7 @@ import {
   Timestamp,
   Firestore 
 } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 
 /**
  * Firebase Configuration
@@ -27,7 +28,7 @@ import {
  * service cloud.firestore {
  *   match /databases/{database}/documents {
  *     match /{document=**} {
- *       allow read, write: if true; // ⚠️ Only for development!
+ *       allow read, write: if true; // Only for development!
  *     }
  *   }
  * }
@@ -35,14 +36,15 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBBNkHeZolb0UuS-R1Vuxfwj_oDPADvN-o",
-  authDomain: "security-awareness-bfcd3.firebaseapp.com",
-  projectId: "security-awareness-bfcd3",
-  storageBucket: "security-awareness-bfcd3.appspot.com", 
-  messagingSenderId: "689020267873",
-  appId: "1:689020267873:web:7ac3685f7198ec93aca920",
-  measurementId: "G-QS0H11XV8N"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
+
 
 // Initialize Firebase
 let app;
@@ -192,10 +194,12 @@ export const getQuizResults = async (): Promise<any[]> => {
 /**
  * Export Firebase app dan db untuk digunakan di tempat lain jika diperlukan
  */
-export { app, db };
+const auth = getAuth(app);
+
+export { app, db, auth };
 
 /**
- * 🔧 SETUP INSTRUCTIONS:
+ *  SETUP INSTRUCTIONS:
  * 
  * 1. CREATE FIREBASE PROJECT:
  *    - Go to https://console.firebase.google.com
