@@ -1,6 +1,6 @@
 # 🛡️ CyberSafe - Cybersecurity Awareness Web App
 
-Platform edukasi keamanan digital yang dirancang khusus untuk generasi muda Indonesia. Aplikasi ini menggunakan pendekatan interaktif dan bahasa yang santai namun edukatif untuk mengajarkan konsep-konsep penting cybersecurity.
+Platform edukasi keamanan digital yang dirancang khusus untuk orang awam. Aplikasi ini menggunakan pendekatan interaktif dan bahasa yang santai namun edukatif untuk mengajarkan konsep-konsep penting cybersecurity.
 
 ##  Tujuan Proyek
 
