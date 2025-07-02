@@ -15,7 +15,6 @@ Meningkatkan awareness cybersecurity di kalangan anak muda melalui:
 ### 🏠 Landing Page
 - Hero section dengan slogan menarik: "Internet itu Hutan, Jangan jadi mangsa!"
 - Navigasi intuitif ke semua fitur utama
-- Statistics dan testimonials untuk credibility
 - Responsive design untuk semua device
 
 ### 📚 Halaman Edukasi
